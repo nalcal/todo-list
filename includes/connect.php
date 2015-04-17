@@ -1,6 +1,7 @@
 <?php
-//mysqli is localhost, root, tasks
-$mysqli = new mysqli('localhost', 'root', 'tasks');
+//mysqli is localhost, root, tasks 
+//it takes localhost as the first perameter
+$mysqli = new mysqli('localhost', 'root', 'root', 'tasks');
 //mysqli we want it to die and have this message
 if ($mysqli->connect_error) {
 	die('Connect Error(' . $mysqli->connect_errno . ')'
