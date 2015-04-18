@@ -4,6 +4,6 @@
 	$mysqli = new mysqlii('localhost', 'root', 'root', 'tasks');
 
 	if($result = $mysqli->query("DELETE FROM tasks WHERE id='task_id'")){
-		#code
+		
 	}
 ?>
